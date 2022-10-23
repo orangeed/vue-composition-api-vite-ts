@@ -1,0 +1,25 @@
+// 主题
+$themes: (
+  // 白天模式
+  light:
+    (
+      bgColor: #fff,
+      textColor: #121212,
+      cardBgColor: #ffffff,
+      tagViewBgColor: #fff,
+      tagViewActiveBgColor: #42b983,
+      tagViewActiveColor: #fff,
+      tagViewColor: #121212,
+    ),
+  // 夜间模式
+  dark:
+    (
+      bgColor: #4d4c4c,
+      textColor: #e7e7e7,
+      cardBgColor: #3a3a3a,
+      tagViewBgColor: #8f8f8f,
+      tagViewActiveBgColor: #42b983,
+      tagViewActiveColor: #fff,
+      tagViewColor: #fff,
+    )
+);

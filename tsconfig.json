@@ -1,0 +1,62 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "strict": true,
+    "jsx": "preserve",
+    "importHelpers": true,
+    "moduleResolution": "node",
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "types": ["vite/client"],
+    "paths": {
+      "@/*": ["./src*"]
+    },
+    "lib": ["esnext", "dom", "dom.iterable", "scripthost"]
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.vue",
+    "tests/**/*.ts",
+    "tests/**/*.tsx",
+    // "tailwind.config.js",
+    // "postcss.config.ts",
+    "vite.config.ts"
+  ],
+  "exclude": ["node_modules", "mock", "build", "dist"],
+  "type": ["node"]
+}
+
+// {
+//   "compilerOptions": {
+//     "target": "esnext",
+//     "useDefineForClassFields": true,
+//     "module": "esnext",
+//     "moduleResolution": "node",
+//     "strict": true,
+//     "jsx": "preserve",
+//     "sourceMap": true,
+//     "resolveJsonModule": true,
+//     "isolatedModules": true,
+//     "esModuleInterop": true,
+//     "lib": ["esnext", "dom"],
+//     "types": ["vite/client", "vite-plugin-svg-icons/client"],
+//     "skipLibCheck": true
+//   },
+//   "include": [
+//     "src/**/*.ts",
+//     "src/**/*.d.ts",
+//     "src/**/*.tsx",
+//     "src/**/*.vue",
+//     "env.development",
+//     "env.production",
+//     "env.test"
+//   ],
+//   "references": [{ "path": "./tsconfig.node.json" }],
+//   "type":["node"]
+// }
